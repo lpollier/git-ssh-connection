@@ -1,5 +1,4 @@
-# git-ssh-connection
-Git SSH connection (public)
+# Git SSH connection:
 
 
 ## 1. Checking for existing SSH keys:
