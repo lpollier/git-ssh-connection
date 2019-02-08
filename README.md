@@ -10,3 +10,13 @@ $ git config (--global) user.email "email@address.com"
 $ ls -al ~/.ssh # Lists the files in your .ssh directory, if they exist
 -> Windows: 
 $ ls -al ~/.ssh # Lists the files in your .ssh directory, if they exist
+Source: https://help.github.com/articles/checking-for-existing-ssh-keys/
+
+2. Generating a new SSH key and adding it to the ssh-agent:
+-> Linux:
+$ ssh-keygen -t rsa -b 4096 -C "email@address.com"
+$ eval "$(ssh-agent -s)" # Start the ssh-agent in the background
+$ ssh-add ~/.ssh/id_rsa # Add your SSH private key to the ssh-agent
+-> Windows:
+$ ssh-keygen -t rsa -b 4096 -C "email@address.com"
+Source: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
