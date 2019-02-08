@@ -28,3 +28,10 @@ $ xclip -sel clip < ~/.ssh/id_rsa.pub # Copies the contents of the id_rsa.pub fi
 -> Windows:
 $ clip < ~/.ssh/id_rsa.pub # Copies the contents of the id_rsa.pub file to your clipboard
 Source: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+4. Testing your SSH connection:
+-> Linux:
+$ ssh -T git@github.com # Attempts to ssh to GitHub
+-> Windows:
+$ ssh -T git@github.com # Attempts to ssh to GitHub
+Source: https://help.github.com/articles/testing-your-ssh-connection/
