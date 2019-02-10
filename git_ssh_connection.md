@@ -35,6 +35,10 @@ Source: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-
 
 `$ clip < ~/.ssh/id_rsa.pub` # Copies the contents of the id_rsa.pub file to your clipboard
 
+* Linux/Windows:
+
+Then go into Github.com ->  Click your profile photo -> Settings -> SSH and GPG keys -> New SSH key -> Add a descriptive title -> Paste your key -> Add SSH key -> Confirm your password.
+
 Source: https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 
